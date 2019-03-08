@@ -1,0 +1,12 @@
+{
+	"name": "opoink/base",
+	"description": "Opoink framework base platform",
+    "autoload": {
+        "psr-4": {
+			"": "App/Ext/"
+        }
+    },
+    "require": {
+		"opoink/framework": "1.0.4",
+    }
+}
