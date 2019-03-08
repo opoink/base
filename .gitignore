@@ -3,7 +3,7 @@
 /Var/*/
 /etc/*
 !/etc/.htaccess
-!/public/sys
 /public/*
 /public/deploy*
 /public/generation.php
+!/public/sys
