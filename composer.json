@@ -10,6 +10,6 @@
         }
     },
     "require": {
-		"opoink/framework": "1.0.4"
+		"opoink/framework": "sub-opoink"
     }
 }
