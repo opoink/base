@@ -11,6 +11,6 @@
     },
     "require": {
         "php": ">=7.1.0",
-		"opoink/framework": "sub-opoink"
+		"opoink/framework": "dev-master"
     }
 }
