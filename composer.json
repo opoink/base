@@ -11,6 +11,6 @@
     },
     "require": {
         "php": ">=7.1.0",
-		"opoink/framework": "1.0.4"
+		"opoink/framework": "1.0.5"
     }
 }
