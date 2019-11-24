@@ -338,6 +338,27 @@ opoink = {
 				$(".form_key").val(opoink.formKey);
 				$('#'+options).submit();
 			}
+		},
+
+		modCollaps: function(modCount){
+			var row = $('#'+modCount);
+			var modkey = $('#'+modCount+' .controllersKey');
+			var modval = $('#'+modCount+' .controllersVal');
+
+			this.modCollapsHelper(modkey);
+			this.modCollapsHelper(modval);
+		},
+		modCollapsHelper: function(mod){
+			$.each(mod, (i, v) => {
+				if(i > 0){
+					var con = $(v);
+					if(con.hasClass('hidden')){
+						con.removeClass('hidden');
+					} else {
+						con.addClass('hidden');
+					}
+				}
+			});
 		}
 	}
 }

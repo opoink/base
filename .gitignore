@@ -7,3 +7,6 @@
 /public/deploy*
 /public/generation.php
 !/public/sys
+/vendor
+/composer.phar
+/composer.lock
