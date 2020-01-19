@@ -11,6 +11,14 @@
     },
     "require": {
         "php": ">=7.1.0",
-		"opoink/framework": "1.0.5"
-    }
+		"opoink/framework": ">1.0.5"
+    },
+    "authors": [
+        {
+            "name": "Ron Rome Perez",
+            "email": "ron@opoink.com",
+            "homepage": "https://www.opoink.com",
+            "role": "Founder"
+        }
+    ]
 }
